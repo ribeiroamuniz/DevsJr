@@ -55,6 +55,7 @@
   }
 
   .main-title {
+    width: 20%;
     color: var(--gray-100);
     text-shadow: 1px 1px 1px #010409;
   }
