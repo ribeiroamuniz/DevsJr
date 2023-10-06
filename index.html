@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="Description"
+      content="Encontre usuarios e seus repositórios da plataforma github.">
+      <meta name="Authors" content="Angélica Muniz">
+      <meta name="keywords" content="Repositórios, GitHub ">
+  <link rel="stylesheet" href="mystyle.css" />
+  <script src="script.js" async></script>
+
+  <title>DevsJr</title>
+</head>
+
+<div class="backgroundcontainer">
+
+
+<body>
+  <header class="header-container">
+    <div class="header-content">
+      <h1 class="main-title">Devs Jr</h1>
+      <img src="./assets/logoDevsJr.png" alt="DevsJr logo autoral"  />
+    </div>
+  </header>
+
+  <main>
+    <form class="search-for-user-form">
+      <input 
+        type="text" 
+        placeholder="Digite o nome do usuário" 
+        class="username-input" 
+      />
+      <button type="submit">Buscar</button>
+    </form>
+
+    <section class="user-data-container hide">
+      <div class="user-data-content">
+        <img src="" alt="" class="user-avatar" />
+
+        <div class="user-data">
+          <div class="informacoes">
+            Nome:
+            <span class="user-name"></span>
+          </div>
+          <div class="informacoes">
+            Nickname:
+            <span class="login"></span>
+          </div>
+          <div class="informacoes">
+            Seguidores:
+            <span class="user-followers"></span>
+          </div>
+          <div class="informacoes">
+            Biografia:
+            <span class="biografia"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="user-repo-container">
+        <h2>Repositórios públicos:</h2>
+
+        <ul class="user-repo-content"></ul>
+      </div>
+    </section>
+  </main>
+</body>
+
+</div>
+
+</html>

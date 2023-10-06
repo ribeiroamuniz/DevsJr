@@ -1,0 +1,215 @@
+:root {
+    --gray-100: #f0f6fc;
+    --gray-200: #c9d1d9;
+    --gray-400: #8b949e;
+    --gray-500: #f0f6fc1a;
+  
+    --black-400: #30363d;
+    --black-500: #21262d;
+    --black-600: #161b22;
+    --black-700: #0d1117;
+    --black-800: #010409;
+  
+    --green-300: #2ea043;
+    --green-400: #238636;
+  
+    --white: #fff;
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+
+  body {
+    background-color: #e5fdff;
+  }
+  
+  body, input, button {
+    color: var(--gray-200);
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
+  
+  .header-container {
+    background-color: rgb(0, 183, 255);
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 183, 255);
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 16px;
+  }
+
+  .main-title {
+    color: var(--gray-100);
+    text-shadow: 1px 1px 1px #010409;
+  }
+  
+  .header-container img {
+    width: 40px;
+    height: auto;
+    box-shadow: 1px 1px 1px#0d1117;
+  }
+  
+  main {
+    max-width: 1180px;
+    margin: 0 auto 80px;
+  
+    padding: 0 16px;
+  }
+  
+  .search-for-user-form {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+  
+    height: 48px;
+  }
+  
+  .username-input {
+    width: 240px;
+    padding: 12px;
+    background-color: var(--black-600);
+  
+    border: 1px solid var(--black-400);
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+  }
+  
+  button[type="submit"] {
+    background-color: rgb(0, 204, 255);
+    color: var(--white);
+    font-weight: bold;
+    padding: 16px;
+  
+    border: 1px solid rgb(0, 204, 255);
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+  
+    transition: 0.2s;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: rgb;
+  }
+  
+  
+  .user-data-container {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+  }
+  
+  .user-data-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+  }
+  
+  .user-data-content > img {
+    width: 140px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid var(--gray-200);
+  }
+  
+  .user-data {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: black;
+  }
+  
+  .informacoes {
+    font-size: 18px;
+  }
+  
+  
+  .user-repo-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+  }
+
+  h2 {
+    color: black;
+  }
+  
+  .user-repo-content {
+    width: 100%;
+    display: flexbox;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    justify-content: center;
+  }
+  
+  .user-repo-content.no-repo {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .user-repo {
+    background-color: var(--black-700);
+    padding: 16px;
+    border: 1px solid var(--black-400);
+    border-radius: 6px;
+  }
+  
+  .user-repo header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .repo-title {
+    font-size: 20px;
+  }
+  
+  .repo-link {
+    background-color: var(--black-500);
+    color: var(--gray-200);
+    border: 1px solid var(--gray-500);
+    border-radius: 6px;
+    text-decoration: none;
+  
+    padding: 8px 16px;
+  }
+  
+  .repo-link:hover {
+    background-color: var(--black-400);
+    border-color: var(--gray-400);
+    align-items: center;
+  }
+  
+  .repo-description {
+    margin: 16px 0;
+  
+    overflow:hidden; 
+    white-space:nowrap; 
+    text-overflow: ellipsis;
+    max-width: 530px;
+  }
+  
+  
+  .hide {
+    display: none;
+  }
