@@ -54,6 +54,11 @@
     padding: 16px;
   }
 
+    title{
+        position: absolute;
+        width: 40%; 
+    }
+
   .main-title {
     width: 20%;
     color: var(--gray-100);
