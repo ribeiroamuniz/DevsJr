@@ -54,6 +54,10 @@
     padding: 16px;
   }
 
+    .titulo{
+        position: fixed;
+        width: 10%;
+    }
 
   .main-title {
     width: 10%;
